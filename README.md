@@ -10,24 +10,16 @@ The City of Chicago's tables should be placed in the folder with the path "chica
 
 The Sakila database's tables should be placed in the folder with the path "sakila-db/sakila-csv". They originate from https://dev.mysql.com/doc/sakila/en/
 
-The test harness supports the following commands:
+The test harness supports the following commands:  
 
-help         - prints the commands
-
-loadTables   - loads in the Sakila and Chicago datasets
-
-tableInfo    - gets info on the loaded datasets"
-
-singleJoins  - runs experiments on single attribute joins
-
-getNonEmpty  - creates pickle files with the non-empty single attribute joins. Needed to generate queries
-
-genQueries   - generates 200 random queries from the Sakila and Chicago datasets
-
-runQueries   - generates a summary from the 200 random queries
-
-printSummary - prints a summary of the results from running 200 queries
-
+help         - prints the commands  
+loadTables   - loads in the Sakila and Chicago datasets  
+tableInfo    - gets info on the loaded datasets  
+singleJoins  - runs experiments on single attribute joins  
+getNonEmpty  - creates pickle files with the non-empty single attribute joins. Needed to generate queries  
+genQueries   - generates 200 random queries from the Sakila and Chicago datasets  
+runQueries   - generates a summary from the 200 random queries  
+printSummary - prints a summary of the results from running 200 queries  
 q            - quits the test harness
 
 The code was written and last tested in python 3.8.6.
